@@ -120,9 +120,7 @@ public class Compiler {
         String source = "testfile.txt";
         // 目标文件output.txt，文件在当前目录下
         String target = "output.txt";
-
-        // 本程序实现编译器的词法分析功能，将源文件中的单词提取出来，写入目标文件中
-
+        
         br = new BufferedReader(
                 new InputStreamReader(new FileInputStream(new File(source)), "utf-8"));
         bw = new BufferedWriter(
