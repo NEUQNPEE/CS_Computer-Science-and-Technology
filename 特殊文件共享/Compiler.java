@@ -1,14 +1,14 @@
-
-/*
- * @Author: eekspeed 103409346+eekspeed@users.noreply.github.com
- * @Date: 2023-09-20 00:42:58
- * @LastEditors: eekspeed 103409346+eekspeed@users.noreply.github.com
- * @LastEditTime: 2023-09-20 00:56:17
- * @FilePath: \Computer-Graduate-Examination-Database\特殊文件共享\Compiler.java
- * @Description: 
- * ( ﾟ∀。)如果你想联系我，那方式只能由你自己去找( ﾟ∀。)
- * Copyright (c) 2023 by NieFire, All Rights Reserved. 
+/**
+ * @Author       : NieFire planet_class@foxmail.com
+ * @Date         : 2023-09-20 00:42:58
+ * @LastEditors  : NieFire planet_class@foxmail.com
+ * @LastEditTime : 2023-09-30 23:29:31
+ * @FilePath     : \Computer-Graduate-Examination-Database\特殊文件共享\Compiler.java
+ * @Description  : 编译原理第一次实验词法分析器ac代码java版本
+ * @( ﾟ∀。)只要加满注释一切都会好起来的( ﾟ∀。)
+ * @Copyright (c) 2023 by NieFire, All Rights Reserved. 
  */
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
