@@ -1,13 +1,4 @@
-<!--
- * @Author: NieFire planet_class@foxmail.com
- * @Date: 2023-09-20 10:29:06
- * @LastEditors: NieFire planet_class@foxmail.com
- * @LastEditTime: 2023-09-22 23:57:30
- * @FilePath: \Computer-Graduate-Examination-Database\README.md
- * @Description: 
- * ( ﾟ∀。)只要加满注释一切都会好起来的( ﾟ∀。)
- * Copyright (c) 2023 by NieFire, All Rights Reserved. 
--->
+进行pr测试
 # Computer-Graduate-Examination-Database
 供小汤河职业技术学院元宇宙土木工程专业考研集团化作战使用
 
