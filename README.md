@@ -1,4 +1,3 @@
-进行pr测试
 # Computer-Graduate-Examination-Database
 供小汤河职业技术学院元宇宙土木工程专业考研集团化作战使用
 
