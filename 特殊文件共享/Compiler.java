@@ -2,8 +2,8 @@
  * @Author       : NieFire planet_class@foxmail.com
  * @Date         : 2023-09-20 00:42:58
  * @LastEditors  : NieFire planet_class@foxmail.com
- * @LastEditTime : 2023-09-30 23:29:31
- * @FilePath     : \Computer-Graduate-Examination-Database\特殊文件共享\Compiler.java
+ * @LastEditTime : 2023-10-03 23:13:50
+ * @FilePath     : \CS_Computer-Science-and-Technology\特殊文件共享\Compiler.java
  * @Description  : 编译原理第一次实验词法分析器ac代码java版本
  * @( ﾟ∀。)只要加满注释一切都会好起来的( ﾟ∀。)
  * @Copyright (c) 2023 by NieFire, All Rights Reserved. 
@@ -65,8 +65,8 @@ public class Compiler {
 
     // 将词与词的种别码对应起来，使用map数据结构
     private static final Map<String, String> KEYWORD_OR_IDENT = new HashMap<String, String>();
-    private static final Map<String, String> NUMBER = new HashMap<String, String>();
-    private static final Map<String, String> OPERATOR = new HashMap<String, String>();
+    private static final Map<String, String> NUMBER           = new HashMap<String, String>();
+    private static final Map<String, String> OPERATOR         = new HashMap<String, String>();
 
     private static BufferedReader br;
     private static BufferedWriter bw;
