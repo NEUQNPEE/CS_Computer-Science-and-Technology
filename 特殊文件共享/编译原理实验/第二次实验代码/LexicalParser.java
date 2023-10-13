@@ -1,5 +1,13 @@
-package corepackage.compiler;
-
+/**
+ * @Author       : NieFire planet_class@foxmail.com
+ * @Date         : 2023-10-13 14:29:02
+ * @LastEditors  : NieFire planet_class@foxmail.com
+ * @LastEditTime : 2023-10-13 14:45:25
+ * @FilePath     : \CS_Computer-Science-and-Technology\特殊文件共享\编译原理实验\第二次实验代码\LexicalParser.java
+ * @Description  : 
+ * @( ﾟ∀。)只要加满注释一切都会好起来的( ﾟ∀。)
+ * @Copyright (c) 2023 by NieFire, All Rights Reserved. 
+ */
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

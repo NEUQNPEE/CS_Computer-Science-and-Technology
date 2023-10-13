@@ -1,5 +1,3 @@
-package corepackage.compiler;
-
 import java.io.BufferedWriter;
 
 public class FileWriteMediator implements IFileWriteMediator {

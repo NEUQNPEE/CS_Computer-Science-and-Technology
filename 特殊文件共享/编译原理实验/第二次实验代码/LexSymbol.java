@@ -1,5 +1,3 @@
-package corepackage.compiler;
-
 //各种词法符号的种别码
 
 public enum LexSymbol {

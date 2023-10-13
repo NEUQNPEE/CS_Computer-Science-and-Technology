@@ -1,5 +1,3 @@
-package corepackage.compiler;
-
 import java.io.BufferedReader;
 
 public class FileReadMediator implements IFileReadMediator {
