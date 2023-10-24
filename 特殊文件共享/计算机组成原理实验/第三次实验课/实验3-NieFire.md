@@ -1,3 +1,64 @@
+# 程序计数器PC
+## 警告！警告！本仿真代码非课上代码，仅供与第三次实验完成模板对照使用！自行编写实验报告时务必修改！
+
+## 设计
+
+```verilog
+`timescale 1ns / 1ps
+
+module pc (
+    input wire rst,
+    input wire clk,
+    output reg [4:0]pc=0, //感谢ArmouredEvil的初始化写法
+    output reg ce=0
+    );
+    
+    always@(posedge clk)begin
+        if(rst== 1)begin
+            ce<= 0;
+        end else begin
+            ce<= 1;
+        end
+    end
+    
+    always@(posedge clk)begin
+        if(ce== 0)begin
+            pc<= 0;
+        end else begin
+            pc<=pc+4'd4;
+        end
+    end
+endmodule
+```
+
+## 仿真
+
+```verilog
+`timescale 1ns / 1ps
+
+module pc_tb();
+
+    reg rst;
+    reg clk;
+    wire [4:0] pc;
+    wire ce;
+    pc pc1(rst, clk, pc, ce);
+    initial begin
+        clk = 0;
+        forever begin
+        #5 clk = ~clk;
+        end
+    end
+    
+    initial begin
+        rst = 1;
+        #20 rst = 0;
+        #40 $finish;
+    end
+endmodule
+```
+
+
 # MIPS寄存器堆
 
 ## 设计
@@ -107,7 +168,9 @@ module regfile_tb();
         rst=0;
         #100 rst=1;
         #50 rst=0;
-        #900 $finish;
+        #600 rst=1;
+        #100 rst=0;
+        #100 $finish;
     end
    
 
