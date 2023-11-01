@@ -15,7 +15,7 @@ module pc (
     
     always@(posedge clk)begin
         if(rst== 1)begin
-            ce<= 0;
+            ce<= 0; //注意非阻塞赋值
         end else begin
             ce<= 1;
         end
