@@ -170,3 +170,11 @@ CodeGeeX一时半会还真不能卸，copilot吝啬到甚至要先检测问题�
 哈！谁要是不怀念那个时代，那他就没有良心；谁要是想回到那个时代，那他就没有脑子！
 
 详见 [QQ Bot的未来以及迁移建议](https://github.com/Mrs4s/go-cqhttp/issues/2471)
+
+### 强人工智能的母亲是公海
+[BlueSea Frontier 计算集群：AI 创新的未来](https://delcomplex.com/blue-sea-frontier)
+
+![Alt text](image.png)
+![Alt text](image-1.png)
+
+加速！加速！
