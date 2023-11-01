@@ -9,13 +9,13 @@
 module pc (
     input wire rst,
     input wire clk,
-    output reg [4:0]pc=0,
+    output reg [31:0]pc=0,
     output reg ce=0
     );
     
     always@(posedge clk)begin
         if(rst== 1)begin
-            ce<= 0; // 注意非阻塞赋值
+            ce<= 0;
         end else begin
             ce<= 1;
         end
@@ -23,9 +23,9 @@ module pc (
     
     always@(posedge clk)begin
         if(ce== 0)begin
-            pc<= 0;
+            pc<= 32'd0;
         end else begin
-            pc<=pc+4'd4;
+            pc<=pc+32'd4;
         end
     end
 endmodule
@@ -40,7 +40,7 @@ module pc_tb();
 
     reg rst;
     reg clk;
-    wire [4:0] pc;
+    wire [31:0] pc;
     wire ce;
     pc pc1(rst, clk, pc, ce);
     initial begin
