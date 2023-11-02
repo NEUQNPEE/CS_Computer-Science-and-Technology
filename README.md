@@ -8,6 +8,10 @@
 
 [强 风 大 窗 口————使用windows窗口播放强风大背头pv](https://github.com/SunnyDesignor/PowerfulWindSlickedBackHairCS-LX_Improve)
 
+# 文章推荐
+
+[《逃离完美偶像的日子》————采访谭杉杉，从虚拟反射回现实，为闹剧填上一笔注解](http://zqb.cyol.com/html/2023-11/01/nw.D110000zgqnb_20231101_1-06.htm)
+
 # 论文推荐
 
 [杨馨.赛博空间中的“爱情买卖”——“二次元手游”玩家的数字身体与爱欲张力研究[J].新闻记者,2023](https://kns.cnki.net/kcms2/article/abstract?v=kuqSYziLCIF-u7jSmSxDWMMv1ladWSzb4Qvz3p_E2wSOyVtB9BBsFTuG_kMQ4c09nFPFcfs3tq10nuNI62INReQ8w7JX_MIVqRtLemsFEF7y1wBpbxlWuyN4MgXUf9157-iilVsbEhY=&uniplatform=NZKPT&flag=copy)
@@ -15,3 +19,4 @@
 # 视频推荐
 
 [【北京大学】Tensorflow2.0————人工智能神经网络超速入门，一步从0直达项目实践](https://www.bilibili.com/video/BV1B7411L7Qt/?spm_id_from=333.337.search-card.all.click&vd_source=708931444aa1fe851df9ebe6c9f38fcb)
+
