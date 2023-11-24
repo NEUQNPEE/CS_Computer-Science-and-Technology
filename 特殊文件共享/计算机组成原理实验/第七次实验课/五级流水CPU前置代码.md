@@ -69,7 +69,7 @@ module ex_mem(
 endmodule
 ```
 
-## mem
+## mem 注意不要借鉴这个，根据图示，这里应该要添加一个（模拟）外存
 
 ```verilog
 `timescale 1ns / 1ps
