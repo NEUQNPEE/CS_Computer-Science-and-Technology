@@ -6,7 +6,13 @@
 
 # 项目推荐
 
+[500 line or less 中文翻译计划————五百行一个项目入门，感谢译者的伟大工作](https://github.com/HT524/500LineorLess_CN)
+
+[萌百第三方评论插件————可我原有的评论区呢？](https://github.com/AzumWatson/moegirl-comment)
+
 [强 风 大 窗 口————使用windows窗口播放强风大背头pv](https://github.com/SunnyDesignor/PowerfulWindSlickedBackHairCS-LX_Improve)
+
+[控 制 台 O S U——使用控制台玩音游多是一件美逝啊（CPU：啊米诺斯！）](https://github.com/telecomadm1145/cmania)
 
 # 文章推荐
 
