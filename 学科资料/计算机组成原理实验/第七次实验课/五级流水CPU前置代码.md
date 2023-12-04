@@ -69,28 +69,6 @@ module ex_mem(
 endmodule
 ```
 
-## mem 注意不要借鉴这个，根据图示，这里应该要添加一个（模拟）外存
-
-```verilog
-`timescale 1ns / 1ps
-
-module mem(
-    input wire[31:0] wdata_i,
-    input wire[4:0] wd_i,
-    input wire wreg_i,
-    output reg[31:0] wdata_o,
-    output reg[4:0] wd_o,
-    output reg wreg_o
-    );
-    always@(*)begin
-        wdata_o = wdata_i;
-        wd_o = wd_i;
-        wreg_o = wreg_i;
-    end
-endmodule
-
-```
-
 ## mem_wb
 
 ```verilog
