@@ -26,3 +26,10 @@
 
 [【北京大学】Tensorflow2.0————人工智能神经网络超速入门，一步从0直达项目实践](https://www.bilibili.com/video/BV1B7411L7Qt/?spm_id_from=333.337.search-card.all.click&vd_source=708931444aa1fe851df9ebe6c9f38fcb)
 
+# 网站推荐
+
+[Learning Git Branching————世界上最好的git教程，十分钟杀穿git不是梦](https://learngitbranching.js.org/?locale=zh_CN)
+
+[多边形的故事————拥抱多元化的第一课](http://ncase.me/polygons-zh/)
+
+[将atlas文件、skel文件、png切分图还原为GIF————经常拆包的朋友都知道有多好用](https://naganeko.pages.dev/chibi-gif/)
