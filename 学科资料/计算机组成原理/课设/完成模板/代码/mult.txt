@@ -1,0 +1,72 @@
+
+module mult(
+    input wire clk,
+    input wire rst,
+    input wire start,
+    input wire[`RegBus] mul_opdata1,
+    input wire[`RegBus] mul_opdata2,
+    input wire signed_mul_i,
+    output reg[`DoubleRegBus] mul_result,
+    output reg mul_ready_o
+    );
+  
+    reg[5:0] mul_count;
+    reg[65:0] mul_temp;
+    reg[`RegBus] opdata1;
+    reg[`RegBus] opdata1b;
+    reg[`RegBus] opdata2;
+ 
+    always @(posedge clk)begin
+        if(rst == `RstEnable)begin
+            mul_count <= 6'b0;
+            mul_ready_o <= 1'b0;
+            mul_result<= {`ZeroWord,`ZeroWord};
+            opdata1 <= `ZeroWord;
+            opdata1b <= `ZeroWord; 
+        end else if(start==1'b0) begin
+            mul_ready_o<=1'b0;
+            mul_temp <={`ZeroWord,`ZeroWord};
+            mul_count <= 6'b0;
+            opdata1 <= `ZeroWord;
+            opdata1b <= `ZeroWord; 
+        end else if(start == 1'b1) begin
+            if(mul_count == 6'h0)begin
+                opdata1 = mul_opdata1;
+                opdata1b = ~mul_opdata1 +1'b1; 
+                opdata2 = mul_opdata2;
+                // 部分积(顶位补0）拼接乘数（包含符号位）拼接0
+                mul_temp <= {33'd0,opdata2,1'b0};
+                mul_ready_o <= 1'b0;
+                mul_count <= mul_count +1;
+            end else if(mul_count != 6'b100001)begin
+                // 如果 Yn+1 - Yn = -1
+                if(mul_temp[1:0] == 2'b10)begin
+                    // + [-x]补
+                    //mul_temp[65:33] <= mul_temp[65:33] + ~opdata1 + 1;
+                     mul_temp = {mul_temp[65:33]+{opdata1b[31],opdata1b},mul_temp[32:0]};
+                    // 右移一位，最后一次不移位
+                    mul_temp = mul_count==(6'b100000)?mul_temp:{mul_temp[65],mul_temp[65:1]};
+                    // 如果 Yn+1 - Yn = 0
+                end else if(mul_temp[1:0] == 2'b00 || mul_temp[1:0] == 2'b11)begin
+                    // 右移一位
+                    mul_temp = mul_count==(6'b100000)?mul_temp:{mul_temp[65],mul_temp[65:1]};
+                    // 如果 Yn+1 - Yn = 1
+                end else if(mul_temp[1:0] == 2'b01)begin
+                    // +[x]补
+                    //mul_temp[65:33] <= mul_temp[65:33] + opdata1;
+                    mul_temp = {mul_temp[65:33]+{opdata1[31],opdata1},mul_temp[32:0]};
+                    // ->1
+                    mul_temp = mul_count==(6'b100000)?mul_temp:{mul_temp[65],mul_temp[65:1]};
+                end
+                // ->> 32
+                mul_count <= mul_count+1;
+            end else if(mul_count == 6'b100001)begin
+                mul_result = mul_temp[64:2];
+                mul_ready_o <= 1'b1;
+            end 
+        end 
+    end
+    
+    
+    
+endmodule
