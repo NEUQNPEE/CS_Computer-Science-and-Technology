@@ -14,6 +14,8 @@
 
 [控 制 台 O S U——使用控制台玩音游多是一件美逝啊（CPU：啊米诺斯！）](https://github.com/telecomadm1145/cmania)
 
+[构建你自己的技术栈：用编写项目的方式提升编程能力](https://github.com/codecrafters-io/build-your-own-x)
+
 # 文章推荐
 
 [《逃离完美偶像的日子》————采访谭杉杉，从虚拟反射回现实，为闹剧填上一笔注解](http://zqb.cyol.com/html/2023-11/01/nw.D110000zgqnb_20231101_1-06.htm)
