@@ -1,13 +1,62 @@
 **提示：github网页端对md语法支持度不高，建议使用vscode等编辑器查看。**
-# 上传历史
 
-## 2023年10月1日
-上传“极限计算的方法”至1.5节。例题和具体阐述会于后续补充。
+请在阅读笔记前背诵如下内容：
 
-## 2023年9月30日02:10:21
-根据汤家凤全程班，整理至等价无穷小。
+鸣大钟一次！赞美……哦不好意思串台了，我们重来：
 
+1. 两角和公式：
 
-## 2023年9月29日
-上传重要极限推导的图片
+$ sin(A+B) = sinAcosB+cosAsinB $
+
+$ sin(A-B) = sinAcosB-cosAsinB $
+
+$ cos(A+B) = cosAcosB-sinAsinB $
+
+$ cos(A-B) = cosAcosB+sinAsinB $
+
+2. 倍角公式：
+
+$ sin2A = 2sinAcosA $
+
+$ cos2A = cos^2A-sin^2A = 2cos^2A-1 = 1-2sin^2A $
+
+$ tan2A = \frac{2tanA}{1-tan^2A} $
+
+$ tan\frac{A}{2} = \frac{sinA}{1+cosA} = \frac{1-cosA}{sinA} $
+
+3. 降幂公式：
+
+$ sin^2\frac{A}{2} = \frac{1-cosA}{2} $
+
+$ cos^2\frac{A}{2} = \frac{1+cosA}{2} $
+
+$ tan^2\frac{A}{2} = \frac{1-cosA}{1+cosA} $
+
+4. 万能公式：
+
+$ sinA = \frac{2tan\frac{A}{2}}{1+tan^2\frac{A}{2}} $
+
+$ cosA = \frac{1-tan^2\frac{A}{2}}{1+tan^2\frac{A}{2}} $
+
+$ tanA = \frac{2tan\frac{A}{2}}{1-tan^2\frac{A}{2}} $
+
+5. 反三角函数的导数：
+
+$ (arcsin x)\prime = \frac{1}{\sqrt{1-x^2}} $
+
+$ (arccos x)\prime = -\frac{1}{\sqrt{1-x^2}} $
+
+$ (arctan x)\prime = \frac{1}{1+x^2} $
+
+$ (arccot x)\prime = -\frac{1}{1+x^2} $
+
+6. 反双曲函数的导数：
+
+反双曲正弦函数：$ y = arcsinhx = ln(x+\sqrt{x^2+1}) $, 则 $ y\prime = \frac{1}{\sqrt{x^2+1}} $
+
+反双曲余弦函数：$ y = arccoshx = ln(x+\sqrt{x^2-1}) $, 则 $ y\prime = \frac{1}{\sqrt{x^2-1}} $
+
+反双曲正切函数：$ y = arctanhx = \frac{1}{2}ln\frac{1+x}{1-x} $, 则 $ y\prime = \frac{1}{1-x^2} $
+
+反双曲余切函数：$ y = arccothx = \frac{1}{2}ln\frac{x+1}{x-1} $, 则 $ y\prime = \frac{1}{1-x^2} $
 
