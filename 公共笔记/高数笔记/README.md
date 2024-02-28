@@ -2,7 +2,7 @@
 
 请在阅读笔记前背诵如下内容：
 
-鸣大钟一次！赞美……哦不好意思串台了，我们重来：
+**鸣大钟一次！赞美**……哦不好意思串台了，我们重来：
 
 1. 两角和公式：
 
@@ -13,6 +13,8 @@ $ sin(A-B) = sinAcosB-cosAsinB $
 $ cos(A+B) = cosAcosB-sinAsinB $
 
 $ cos(A-B) = cosAcosB+sinAsinB $
+
+$ tan(A+B) = \frac{tanA+tanB}{1-tanAtanB} $
 
 2. 倍角公式：
 
@@ -40,7 +42,17 @@ $ cosA = \frac{1-tan^2\frac{A}{2}}{1+tan^2\frac{A}{2}} $
 
 $ tanA = \frac{2tan\frac{A}{2}}{1-tan^2\frac{A}{2}} $
 
-5. 反三角函数的导数：
+5. 三角函数的导数：
+
+$ (sinx)\prime = cosx $
+
+$ (cosx)\prime = -sinx $
+
+$ (tanx)\prime = \frac{1}{cos^2x} $
+
+$ (cotx)\prime = -\frac{1}{sin^2x} $
+
+1. 反三角函数的导数：
 
 $ (arcsin x)\prime = \frac{1}{\sqrt{1-x^2}} $
 
@@ -50,7 +62,7 @@ $ (arctan x)\prime = \frac{1}{1+x^2} $
 
 $ (arccot x)\prime = -\frac{1}{1+x^2} $
 
-6. 反双曲函数的导数：
+7. 反双曲函数的导数：
 
 反双曲正弦函数：$ y = arcsinhx = ln(x+\sqrt{x^2+1}) $, 则 $ y\prime = \frac{1}{\sqrt{x^2+1}} $
 
@@ -59,4 +71,8 @@ $ (arccot x)\prime = -\frac{1}{1+x^2} $
 反双曲正切函数：$ y = arctanhx = \frac{1}{2}ln\frac{1+x}{1-x} $, 则 $ y\prime = \frac{1}{1-x^2} $
 
 反双曲余切函数：$ y = arccothx = \frac{1}{2}ln\frac{x+1}{x-1} $, 则 $ y\prime = \frac{1}{1-x^2} $
+
+7. 绝对值不等式：
+
+$ ||a|-|b|| \leq |a±b| \leq |a|+|b| $
 
