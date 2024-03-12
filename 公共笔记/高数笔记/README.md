@@ -42,7 +42,11 @@ $ cosA = \frac{1-tan^2\frac{A}{2}}{1+tan^2\frac{A}{2}} $
 
 $ tanA = \frac{2tan\frac{A}{2}}{1-tan^2\frac{A}{2}} $
 
-5. 三角函数的导数：
+5. 其他奇奇怪怪的公式
+
+$ tan^2x = sec^2x-1 $
+
+6. 三角函数的导数：
 
 $ (sinx)\prime = cosx $
 
@@ -52,7 +56,7 @@ $ (tanx)\prime = \frac{1}{cos^2x} $
 
 $ (cotx)\prime = -\frac{1}{sin^2x} $
 
-1. 反三角函数的导数：
+7. 反三角函数的导数：
 
 $ (arcsin x)\prime = \frac{1}{\sqrt{1-x^2}} $
 
@@ -62,7 +66,7 @@ $ (arctan x)\prime = \frac{1}{1+x^2} $
 
 $ (arccot x)\prime = -\frac{1}{1+x^2} $
 
-7. 反双曲函数的导数：
+8. 反双曲函数的导数：
 
 反双曲正弦函数：$ y = arcsinhx = ln(x+\sqrt{x^2+1}) $, 则 $ y\prime = \frac{1}{\sqrt{x^2+1}} $
 
@@ -72,7 +76,32 @@ $ (arccot x)\prime = -\frac{1}{1+x^2} $
 
 反双曲余切函数：$ y = arccothx = \frac{1}{2}ln\frac{x+1}{x-1} $, 则 $ y\prime = \frac{1}{1-x^2} $
 
-7. 绝对值不等式：
+9. 绝对值不等式：
 
 $ ||a|-|b|| \leq |a±b| \leq |a|+|b| $
 
+10. 三角函数的不定积分：
+
+$ \int sinxdx = -cosx+C $
+
+$ \int cosxdx = sinx+C $
+
+$ \int tanxdx = -ln|cosx|+C $
+
+$ \int cotxdx = ln|sinx|+C $
+
+$ \int secxdx = ln|secx+tanx|+C $
+
+$ \int cscxdx = -ln|cscx-cotx|+C $
+
+$ \int sec^2xdx = tanx+C $
+
+$ \int csc^2xdx = -cotx+C $
+
+$ \int secxtanxdx = secx+C $
+
+$ \int cscxcotxdx = -cscx+C $
+
+11. 平方和差的不定积分：
+
+![alt text](images/image-26.png)
