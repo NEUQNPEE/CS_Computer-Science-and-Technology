@@ -1,5 +1,4 @@
-package os4;
-
+package 学科资料.操作系统实验.第四次实验.java;
 import java.util.Scanner;
 
 public class Main {

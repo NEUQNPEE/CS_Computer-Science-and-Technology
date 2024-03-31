@@ -1,8 +1,7 @@
-package os4;
+package 学科资料.操作系统实验.第四次实验.java;
 
 import java.io.*;
 import java.util.*;
-
 
 public class FileSystemManagement {
 
@@ -41,12 +40,12 @@ public class FileSystemManagement {
 
         static int allocFAT(int size) {
             int[] startNum = new int[128];
-            int i = 1; //纪录fat循环定位
+            int i = 1; // 纪录fat循环定位
             for (int j = 0; j < size; i++) {
                 if (FAT[i] == 0) {
-                    startNum[j] = i; //纪录该文件所有磁盘块
+                    startNum[j] = i; // 纪录该文件所有磁盘块
                     if (j > 0) {
-                        FAT[startNum[j - 1]] = i; //fat上一磁盘块指向下一磁盘块地址
+                        FAT[startNum[j - 1]] = i; // fat上一磁盘块指向下一磁盘块地址
                     }
                     j++;
                 }
@@ -55,9 +54,8 @@ public class FileSystemManagement {
             return startNum[0];
         }
 
-        /*
-         *
-         *  释放文件对应的FAT表占用空间
+        /**
+         * 释放文件对应的FAT表占用空间
          */
         static void delFAT(int startNum) {
             int nextBlock;
@@ -80,12 +78,11 @@ public class FileSystemManagement {
 
     public FileSystemManagement() {
         FATManageMent.initFAT();
-        //创建根目录 使用fat表的第一项
+        // 创建根目录 使用fat表的第一项
         FCB root = new FCB("root", 0, 0, 1);
         root.setFather(root);
         currentDir = root;
     }
-
 
     /**
      * 1. 格式化
@@ -106,7 +103,6 @@ public class FileSystemManagement {
             e.printStackTrace();
         }
     }
-
 
     /**
      * 2. 创建目录
@@ -131,10 +127,8 @@ public class FileSystemManagement {
         }
     }
 
-    /*
-     *
-     *  9. 删除文件 / 3. 删除目录
-     *
+    /**
+     * 9. 删除文件 / 3. 删除目录
      */
     public void rm(String name) {
 
@@ -187,9 +181,8 @@ public class FileSystemManagement {
         }
     }
 
-
     /*
-     * 	6. 创建文件
+     * 6. 创建文件
      */
     public void create(String name, int size) {
 
@@ -214,9 +207,8 @@ public class FileSystemManagement {
 
     }
 
-
     /*
-     *  7. 打开文件
+     * 7. 打开文件
      */
     public void open(String name) {
         FCB value = currentDir.filesOrDirsList.get(name);
