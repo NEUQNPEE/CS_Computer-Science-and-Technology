@@ -16,6 +16,8 @@ $ cos(A-B) = cosAcosB+sinAsinB $
 
 $ tan(A+B) = \frac{tanA+tanB}{1-tanAtanB} $
 
+$ tan(x+\frac{\pi}{2}) = -cotx $
+
 2. 倍角公式：
 
 $ sin2A = 2sinAcosA $
@@ -105,3 +107,13 @@ $ \int cscxcotxdx = -cscx+C $
 11. 平方和差的不定积分：
 
 ![alt text](images/image-26.png)
+
+12. 立方差公式：
+
+$ a^3-b^3 = (a-b)(a^2+ab+b^2) $
+
+$ a^3+b^3 = (a+b)(a^2-ab+b^2) $
+
+13. 不定积分使我幼小的心灵受到大大的震撼：
+
+![alt text](images/image-27.png)
