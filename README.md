@@ -16,6 +16,8 @@
 
 [构建你自己的技术栈：用编写项目的方式提升编程能力](https://github.com/codecrafters-io/build-your-own-x)
 
+[RunCat——状态栏奔腾小猫，速度挂钩CPU(首先我真的很想要一个彩虹猫版本，其次派对鹦鹉版本sikisiki)](https://github.com/Kyome22/RunCat_for_windows)
+
 # 文章推荐
 
 [《逃离完美偶像的日子》————采访谭杉杉，从虚拟反射回现实，为闹剧填上一笔注解](http://zqb.cyol.com/html/2023-11/01/nw.D110000zgqnb_20231101_1-06.htm)
