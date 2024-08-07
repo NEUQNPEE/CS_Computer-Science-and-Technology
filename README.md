@@ -22,6 +22,8 @@
 
 [《逃离完美偶像的日子》————采访谭杉杉，从虚拟反射回现实，为闹剧填上一笔注解](http://zqb.cyol.com/html/2023-11/01/nw.D110000zgqnb_20231101_1-06.htm)
 
+[如何编写不可维护的代码————至纯神金，没有祸祸同事二十年经历写不出如此抽象的作品](https://github.com/Droogans/unmaintainable-code)
+
 # 论文推荐
 
 [杨馨.赛博空间中的“爱情买卖”——“二次元手游”玩家的数字身体与爱欲张力研究[J].新闻记者,2023](https://kns.cnki.net/kcms2/article/abstract?v=kuqSYziLCIF-u7jSmSxDWMMv1ladWSzb4Qvz3p_E2wSOyVtB9BBsFTuG_kMQ4c09nFPFcfs3tq10nuNI62INReQ8w7JX_MIVqRtLemsFEF7y1wBpbxlWuyN4MgXUf9157-iilVsbEhY=&uniplatform=NZKPT&flag=copy)
@@ -37,3 +39,5 @@
 [多边形的故事————拥抱多元化的第一课](http://ncase.me/polygons-zh/)
 
 [将atlas文件、skel文件、png切分图还原为GIF————经常拆包的朋友都知道有多好用](https://naganeko.pages.dev/chibi-gif/)
+
+[【游鲨】游戏行业资料共享文档](https://365.kdocs.cn/l/ct4bcS9xHD3K?R=L1MvOTQ=)
