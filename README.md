@@ -28,6 +28,8 @@
 
 [杨馨.赛博空间中的“爱情买卖”——“二次元手游”玩家的数字身体与爱欲张力研究[J].新闻记者,2023](https://kns.cnki.net/kcms2/article/abstract?v=kuqSYziLCIF-u7jSmSxDWMMv1ladWSzb4Qvz3p_E2wSOyVtB9BBsFTuG_kMQ4c09nFPFcfs3tq10nuNI62INReQ8w7JX_MIVqRtLemsFEF7y1wBpbxlWuyN4MgXUf9157-iilVsbEhY=&uniplatform=NZKPT&flag=copy)
 
+[郭君宽.青年亚文化视角下虚拟偶像群体的“抽象话”现象研究[D].河北经贸大学,2024](https://kns.cnki.net/kcms2/article/abstract?v=hFA5SNLyt3jwQoZ7Hf_DldYNj-tNscznJa0EjFneK_Xn0hmYBiGBIyuHjT7SPQOG76Ky8O4dTC6dPh8iNHvzCN_yeATh4et3OkcL4zkplnJzmo2PPfuDxgedrHcY1rBnjRMeETFNgeoZRC2l36C30s3Jlf_peET0cPkb1sGvszw=&uniplatform=NZKPT)
+
 # 视频推荐
 
 [【北京大学】Tensorflow2.0————人工智能神经网络超速入门，一步从0直达项目实践](https://www.bilibili.com/video/BV1B7411L7Qt/?spm_id_from=333.337.search-card.all.click&vd_source=708931444aa1fe851df9ebe6c9f38fcb)
