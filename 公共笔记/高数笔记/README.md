@@ -94,7 +94,7 @@ $ \int cotxdx = ln|sinx|+C $
 
 $ \int secxdx = ln|secx+tanx|+C $
 
-$ \int cscxdx = -ln|cscx-cotx|+C $
+$ \int cscxdx = ln|cscx-cotx|+C $
 
 $ \int sec^2xdx = tanx+C $
 
@@ -106,9 +106,10 @@ $ \int cscxcotxdx = -cscx+C $
 
 11. 平方和差的不定积分：
 
+！！！千万注意②中有a>0的要求！！！要是忽略掉你就完蛋了！不信看[这个题](1000题精选.md/#--fracdxsqrta2-x2--arcsinx-a0-)
 ![alt text](images/image-26.png)
 
-12. 立方差公式：
+1.  立方差公式：
 
 $ a^3-b^3 = (a-b)(a^2+ab+b^2) $
 
@@ -118,6 +119,36 @@ $ a^3+b^3 = (a+b)(a^2-ab+b^2) $
 
 ![alt text](images/image-167.png)
 
-14.  不定积分使我幼小的心灵受到大大的震撼：
+14. 渐近线
 
-![alt text](images/image-27.png)
+![alt text](images/image-213.png)
+
+15. 曲率
+
+![alt text](images/image-214.png)
+
+16. 形心坐标
+
+![alt text](images/image-233.png)
+![alt text](images/image-234.png)
+
+17. 曲线弧长
+
+![alt text](images/image-235.png)
+
+18.  旋转曲面的面积
+
+![alt text](images/image-240.png)
+
+19. 隐函数求导
+
+![alt text](images/image-246.png)
+![alt text](images/image-247.png)
+
+20. 二元函数极值（大鼻子爷爷小哑巴猪，开不开心少年团）
+
+![alt text](images/image-252.png)
+
+21. $ e^{(x+y)} $ 积分的处理方法：换元
+
+![alt text](images/image-261.png)
