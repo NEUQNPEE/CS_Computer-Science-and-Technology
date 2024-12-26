@@ -109,7 +109,7 @@ $ \int cscxcotxdx = -cscx+C $
 ！！！千万注意②中有a>0的要求！！！要是忽略掉你就完蛋了！不信看[这个题](1000题精选.md/#--fracdxsqrta2-x2--arcsinx-a0-)
 ![alt text](images/image-26.png)
 
-1.  立方差公式：
+12.  立方差公式：
 
 $ a^3-b^3 = (a-b)(a^2+ab+b^2) $
 
@@ -145,10 +145,14 @@ $ a^3+b^3 = (a+b)(a^2-ab+b^2) $
 ![alt text](images/image-246.png)
 ![alt text](images/image-247.png)
 
-20. 二元函数极值（大鼻子爷爷小哑巴猪，开不开心少年团）
+20. 反函数求导
+
+![alt text](images/image-323.png)
+
+21. 二元函数极值（大鼻子爷爷小哑巴猪，开不开心少年团）
 
 ![alt text](images/image-252.png)
 
-21. $ e^{(x+y)} $ 积分的处理方法：换元
+22. $ e^{(x+y)} $ 积分的处理方法：换元
 
 ![alt text](images/image-261.png)
